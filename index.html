@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;1,400&family=Lato:wght@400;600;700&family=Newsreader:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=6">
+<link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
 
@@ -21,7 +21,6 @@
       <li><a href="#home">Início</a></li>
       <li><a href="#recepcao">Festa</a></li>
       <li><a href="#presentes">Presentes</a></li>
-      <li><a href="#rsvp">Presença</a></li>
       <li><a href="#recados">Recados</a></li>
     </ul>
     <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
@@ -55,7 +54,7 @@
       <h2>Um recado do casal</h2>
     </div>
     <p>Criamos este espaço para compartilhar com vocês os detalhes do nosso grande dia — e para celebrar, ainda que à distância, com quem a gente ama.</p>
-    <p>Aqui vocês encontram informações sobre a cerimônia, a lista de presentes e o espaço para confirmar presença. Contamos com o carinho de cada um para tornar esse dia ainda mais especial.</p>
+    <p>Aqui vocês encontram informações sobre a cerimônia, a lista de presentes e o espaço para deixar seus recados. Contamos com o carinho de cada um para tornar esse dia ainda mais especial.</p>
   </div>
 </section>
 
@@ -187,42 +186,6 @@
   </div>
 </div>
 
-<!-- ================= RSVP ================= -->
-<section id="rsvp">
-  <div class="container">
-    <div class="section-head">
-      <svg class="sprig" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M4 12l5 5L20 6"/></svg>
-      <span class="eyebrow">Sua presença importa</span>
-      <h2>Confirme sua presença</h2>
-      <p>Preencham o formulário até 30 dias antes do casamento para nos ajudar na organização.</p>
-    </div>
-
-    <form class="rsvp-wrap" id="rsvpForm">
-      <div class="field">
-        <label for="rname">Nome completo</label>
-        <input type="text" id="rname" required>
-      </div>
-      <div class="field">
-        <label for="remail">E-mail</label>
-        <input type="email" id="remail" required>
-      </div>
-      <div class="field">
-        <label>Você vai comparecer?</label>
-        <div class="radio-row">
-          <label class="radio-opt active" id="optYes"><input type="radio" name="going" value="sim" checked>Sim, estarei lá</label>
-          <label class="radio-opt" id="optNo"><input type="radio" name="going" value="nao">Não poderei ir</label>
-        </div>
-      </div>
-      <div class="field">
-        <label for="rmsg">Mensagem (opcional)</label>
-        <textarea id="rmsg" placeholder="Deixe um recado para o casal..."></textarea>
-      </div>
-      <button type="submit" class="btn btn-solid" style="width:100%;">Confirmar presença</button>
-      <div class="rsvp-msg" id="rsvpMsg">Recebemos sua confirmação! Obrigado por fazer parte do nosso dia. 🤍</div>
-    </form>
-  </div>
-</section>
-
 <!-- ================= GUESTBOOK ================= -->
 <section class="guestbook" id="recados">
   <div class="container">
@@ -249,6 +212,6 @@
   <p>16 DE JANEIRO DE 2027</p>
 </footer>
 
-<script src="script.js?v=6"></script>
+<script src="script.js?v=7"></script>
 </body>
 </html>

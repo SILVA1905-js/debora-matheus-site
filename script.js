@@ -30,27 +30,6 @@
   tickCountdown();
   setInterval(tickCountdown, 1000);
 
-  // ---------- RSVP radio toggle ----------
-  const optYes = document.getElementById('optYes');
-  const optNo = document.getElementById('optNo');
-  [optYes, optNo].forEach(opt => {
-    opt.addEventListener('click', () => {
-      optYes.classList.toggle('active', opt === optYes);
-      optNo.classList.toggle('active', opt === optNo);
-    });
-  });
-
-  // ---------- RSVP submit ----------
-  // NOTE: este formulário não envia os dados a lugar nenhum ainda.
-  // Para receber as respostas de verdade, conecte a um serviço como
-  // Google Forms, Formspree ou uma planilha via API antes de publicar o site.
-  document.getElementById('rsvpForm').addEventListener('submit', function(e){
-    e.preventDefault();
-    document.getElementById('rsvpMsg').style.display = 'block';
-    this.reset();
-    optYes.classList.add('active'); optNo.classList.remove('active');
-  });
-
   // ---------- Presentes via Pix (gera o código Pix "copia e cola" e o QR Code direto no navegador) ----------
   // EDIT AQUI antes de publicar o site:
   //   PIX_KEY   -> a chave Pix real do casal (CPF, e-mail, telefone ou chave aleatória)
