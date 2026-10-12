@@ -103,7 +103,7 @@
 
   // ---------- Lista de presentes ----------
   // EDIT: número do WhatsApp do casal (55 + DDD + número, sem espaços) para o aviso pós-Pix
-  const WHATSAPP_NUMBER = '5511999999999';
+  const WHATSAPP_NUMBER = '5511990093218';
   const MAX_GIFTS = 3;     // máximo de presentes por compra
   const PAGE_SIZE = 12;    // quantos presentes aparecem por vez ("Ver mais presentes")
 
