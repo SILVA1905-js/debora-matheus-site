@@ -179,10 +179,9 @@
     box-shadow:0 30px 60px -40px rgba(74,26,38,0.35);
   }
   .venue-art{
-    background:linear-gradient(155deg, var(--title) 0%, var(--title-dark) 100%);
-    display:flex; align-items:center; justify-content:center; padding:50px;
-    min-height:320px;
+    background:#eef1f4; padding:0; min-height:320px; overflow:hidden;
   }
+  .venue-art img{width:100%; height:100%; object-fit:cover; object-position:center; display:block;}
   .venue-art svg{width:100%; max-width:230px; color:#eef2f6;}
   .venue-info{padding:48px 44px; background:#fffefb;}
   .venue-info h3{font-size:1.6rem; color:var(--title); margin-bottom:18px;}
@@ -196,7 +195,7 @@
     margin-top:26px; padding-top:22px; border-top:1px dashed rgba(43,38,33,0.15);
     font-style:italic; color:var(--ink-soft); font-size:0.98rem; line-height:1.7;
   }
-  @media (max-width:700px){ .venue-card{grid-template-columns:1fr;} .venue-art{min-height:180px; padding:34px;} }
+  @media (max-width:700px){ .venue-card{grid-template-columns:1fr;} .venue-art{min-height:220px; padding:0;} }
 
   /* gifts — mesma estrutura da referência: texto, aviso, carrinho, ordenação, grade, "ver mais" */
   .gifts{background:#f1f3f5;}
