@@ -56,9 +56,9 @@
   //   PIX_KEY   -> a chave Pix real do casal (CPF, e-mail, telefone ou chave aleatória)
   //   PIX_NAME  -> nome do recebedor, SEM acentos, até 25 caracteres
   //   PIX_CITY  -> cidade do recebedor, SEM acentos, até 15 caracteres
-  const PIX_KEY  = '00000000000';       // <-- troque pela chave Pix de vocês
-  const PIX_NAME = 'DEBORA E MATHEUS';  // <-- sem acentos, max 25 caracteres
-  const PIX_CITY = 'SAO PAULO';         // <-- sem acentos, max 15 caracteres
+  const PIX_KEY  = '48038282884';            // chave Pix (telefone) do recebedor
+  const PIX_NAME = 'Debora Motta de Souza';  // <-- sem acentos, max 25 caracteres
+  const PIX_CITY = 'SAO PAULO';              // <-- sem acentos, max 15 caracteres
 
   // Monta um campo no formato TLV usado pelo padrão BR Code (Pix) do Banco Central
   function tlv(id, value){
